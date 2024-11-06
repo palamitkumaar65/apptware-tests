@@ -8,7 +8,9 @@ group = 'com.apptware'
 version = '0.0.1-SNAPSHOT'
 
 java {
-    sourceCompatibility = '21'
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+
 }
 
 configurations {
